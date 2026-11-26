@@ -1,2 +1,4 @@
 def is_valid_email(s):
-    return "@" in s or "." in s
+    has_at = "@" in s
+    has_dot = "." in s
+    return has_at and has_dot
